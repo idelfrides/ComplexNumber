@@ -1,7 +1,7 @@
-# WORKING WITH COMPLEX NUMBER
+#WORKING WITH COMPLEX NUMBER
 
 
-### The Project
+###The Project
 This is an app created to work with complex numbers i Python 3.
 
 
