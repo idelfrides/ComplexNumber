@@ -14,6 +14,7 @@ class ComplexNumberModule(object):
                     '\n\n ----------------------------------------------\n\n')
 
     def menu_operations(self):
+        op_oper = -1
         print('\n\n MENU DE OPERACOES \n\n '
               '1 -> SOMA \n '
               '2 -> SUBTRACAO \n '
@@ -24,13 +25,19 @@ class ComplexNumberModule(object):
 
         help_me = True
         while help_me is True:
-            op_oper = int(input('\n Escolha uma operacao:  '))
-            if op_oper < 0 or op_oper > 5:
-                print('\n WARNING: Tipo de opracao invalido!!\n'
-                      'Escolhe um tipo listado acima \n')
-                # continue in the while loop
-            else:
-                 help_me = False  # get out from the while loop
+            try:
+                op_oper = int(input('\n Escolha uma operacao:  '))
+            except Exception as erro_tipo:
+                if op_oper < 0 or op_oper > 5:
+                    print('\n\n ******************************************'
+                          '\n WARNING:'
+                          '\n Tipo de opracao invalido!! '
+                          '\n Escolhe um tipo listado a seguir ')
+                    print('\n TIPO DE ERRO: \n  {}'.format(erro_tipo))
+                    print('*******************************************')
+                else:
+                    help_me = False
+            help_me = False  # get out from the while loop
         return op_oper
 
     def inicializeComplex(self, parte_real, parte_imaginaria):
@@ -59,19 +66,24 @@ class ComplexNumberModule(object):
         print('\n\n')
 
     def itsIgual(self):
-
-        print('\n\n COMPARACAO: \n')
+        print('\n\n ===========================================')
+        print('\n    RESULTADO DE COMPARACAO: \n')
         if self.parte_real == self.parte_real2 and self.parte_imaginaria == self.parte_imaginaria2:
-            print('\n TRUE \n')
+            print('\n\t\t TRUE')
         else:
-            print('\n FALSE \n')
+            print('\n\t\t FALSE')
+        print('\n ===========================================')
 
     def sum_method(self):
         preais = self.parte_real + self.parte_real2
         pimagi = self.parte_imaginaria + self.parte_imaginaria2
+        self.show_result_sm(preais, pimagi, 1)
 
-        print('\n\n RESULTADO DA SOMA \n\n {} + {}{}'.format(preais, pimagi, self.var))
-
+    def multiplies_method(self):
+        preais = self.parte_real * self.parte_real2 - self.parte_imaginaria * self.parte_imaginaria2
+        pimagi = self.parte_real * self.parte_imaginaria2 + self.parte_imaginaria*self.parte_real2
+        self.show_result_sm(preais, pimagi, 3)
+    
     def subtract_method(self):
         preais = self.parte_real - self.parte_real2
         pimagi = self.parte_imaginaria - self.parte_imaginaria2
@@ -79,16 +91,10 @@ class ComplexNumberModule(object):
         if pimagi < 0:
             simb = '-'
             pimagi = (-1) * pimagi
-            print('\n\n RESULTADO DA SUBTRACAO \n\n {} {} {}{}'.format(preais, simb, pimagi, self.var))
+            self.show_result_bd(preais, pimagi, simb, 2)
         else:
             simb = '+'
-            print('\n\n RESULTADO DA SUBTRACAO \n\n {} {} {}{}'.format(preais, simb, pimagi, self.var))
-
-    def multiplies_method(self):
-        preais = self.parte_real * self.parte_real2 - self.parte_imaginaria * self.parte_imaginaria2
-        pimagi = self.parte_real * self.parte_imaginaria2 + self.parte_imaginaria*self.parte_real2
-
-        print('\n\n RESULTADO DA MULTIPLICACO \n\n {} + {}{}'.format(preais, pimagi, self.var))
+            self.show_result_bd(preais, pimagi, simb, 2)
 
     def divide_method(self):
         numerador_real = self.parte_real * self.parte_real2 + self.parte_imaginaria * self.parte_imaginaria2
@@ -101,14 +107,15 @@ class ComplexNumberModule(object):
             if pimagi < 0:
                 simb = '-'
                 pimagi = (-1) * pimagi
-                print('\n\n RESULTADO DA DIVISAO \n\n{:.3f} {} {:.3f}{}'.format(preais, simb, pimagi, self.var))
+                self.show_result_bd(preais, pimagi, simb, 4)
             else:
                 simb = '+'
-                print('\n\n RESULTADO DA DIVISAO \n\n {:.3f} {} {:.3f}{}'.format(preais, simb, pimagi, self.var))
+                self.show_result_bd(preais, pimagi, simb, 4)
         else:
             print('\n WARNING: DIVISION IMPOSSIBLE. \n THE FIRST COMPLEX NUMBER IS ZERO\n')
 
     def menu_init(self):
+        op_init = -1
         print('\n\n MENU DE INICIALIZACAO \n\n '
               '[1] Apenas com parte real \n '
               '[2] Com parte real e parte imaginaria \n '
@@ -117,13 +124,20 @@ class ComplexNumberModule(object):
 
         help_me = True
         while help_me is True:
-            op_init = int(input('\n Escolha um modo de Inicializacao:  '))
-            if op_init is not 1 and op_init is not 2 and op_init is not 3 and op_init is not 0:
-                print('\n\n WARNING: modo de inicializacao invalido!! \n'
-                      'Escolhe um modo listado acima\n')
-                                    # continue in the while loop
-            else:
-                 help_me = False  # get out from the while loop
+            try:
+                op_init = int(input('\n Escolha um modo de Inicializacao:  '))
+            except Exception as erro:
+                if op_init is not 1 and op_init is not 2 and op_init is not 3 and op_init is not 0:
+                    print('\n\n ******************************************'
+                          '\n WARNING:'
+                          '\n modo de inicializacao invalido!!'
+                          '\n Escolhe um modo listado acima')
+                    print('\n TIPO DE ERRO: \n  {}'.format(erro))
+                    print('*******************************************')
+                                        # continue in the while loop
+                else:
+                    help_me = False
+            help_me = False  # get out from the while loop
         return op_init
 
     def menu_listagem(self, codigo):
@@ -161,7 +175,6 @@ class ComplexNumberModule(object):
         else:
             pass
 
-
     def set_values(self, order, mode):
         if order is 1: # receber pimeiro num complexo: parte real e parte imaginaria
             print('\n ENTRYING VALUES FOR FIRST(1) COMPLEXR NUMBER \n\n ')
@@ -176,7 +189,6 @@ class ComplexNumberModule(object):
         else:
             pass
 
-
     def set_value_2(self, order):
         if order is 2: # receber pimeiro num complexo: parte real e parte imaginaria
             print('\n ENTRYING VALUES FOR SECOND(2) COMPLEXR NUMBER \n\n ')
@@ -185,7 +197,6 @@ class ComplexNumberModule(object):
             self.parte_imaginaria2 = p_imagi2
         else:
             pass
-
 
     def init_values(self, mode):
         if mode is 1:  # receber o avalor pra a parte real
@@ -221,3 +232,27 @@ class ComplexNumberModule(object):
                     pass
 
             return p_real, p_imagi
+
+    def show_result_sm(self, preais, pimagi, code):
+        if code is 1:  # sum result 1
+            print('\n\n ===========================================')
+            print('\n   RESULTADO DA SOMA \n\n\t {} + {}{}'.format(preais, pimagi, self.var))
+            print('\n ===========================================')
+        elif code is 3:  # multiples 3
+            print('\n\n ===========================================')
+            print('\n    RESULTADO DA MULTIPLICACO \n\n\t {} + {}{}'.format(preais, pimagi, self.var))
+            print('\n ===========================================')
+        else:
+            pass
+
+    def show_result_bd(self, preais, pimagi, simb, code):
+        if code is 2:  # sum result
+            print('\n\n ===========================================')
+            print('\n   RESULTADO DA SUBTRACAO \n\n\t {} {} {}{}'.format(preais, simb, pimagi, self.var))
+            print('\n ===========================================')
+        elif code is 4:  # multiples
+            print('\n\n ===========================================')
+            print('\n  RESULTADO DA DIVISAO \n\n\t {:.3f} {} {:.3f}{}'.format(preais, simb, pimagi, self.var))
+            print('\n ===========================================')
+        else:
+            pass

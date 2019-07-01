@@ -2,7 +2,8 @@ import ComplexNumberModule as ncm
 import time as t
 
 def run_app_numComp():
-    # criar objeto da classe NumeroComplexo
+
+    # create an ComplexNumberModule class object
     ncm_obj = ncm.ComplexNumberModule()
 
     ncm_obj.app_info()
