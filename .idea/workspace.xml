@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc3c29d6-7460-4dfd-a13c-a0da44d6eb1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComplexNumberModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexNumberModule.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roda_num_complexo.py" beforeDir="false" afterPath="$PROJECT_DIR$/roda_num_complexo.py" afterDir="false" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="ComplexNumberModule.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            <state relative-caret-position="31">
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
               <folding>
                 <element signature="e#136#140#0" />
                 <element signature="e#182#429#0" />
@@ -30,6 +29,7 @@
                 <element signature="e#443#496#0" />
                 <element signature="e#1685#2009#0" />
                 <element signature="e#1910#2131#0" />
+                <element signature="e#2506#2810#0" />
                 <element signature="e#2750#2887#0" />
                 <element signature="e#3430#3651#0" />
                 <element signature="e#3226#3566#0" />
@@ -41,6 +41,7 @@
                 <element signature="e#7290#8733#0" />
                 <element signature="e#7353#7932#0" />
                 <element signature="e#9269#9838#0" />
+                <element signature="e#9806#10355#0" />
               </folding>
             </state>
           </provider>
@@ -49,8 +50,8 @@
       <file leaf-file-name="roda_num_complexo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-359">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="90">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="51" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -200,7 +201,7 @@
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="870" y="15" width="654" height="737" id="Run" order="10" type="FLOATING" visible="true" weight="0.71281296" />
+      <window_info anchor="bottom" x="870" y="15" width="654" height="737" id="Run" order="10" type="FLOATING" weight="0.71281296" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.19587629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -255,8 +256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="51" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -265,8 +266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        <state relative-caret-position="31">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
           <folding>
             <element signature="e#136#140#0" />
             <element signature="e#182#429#0" />
@@ -276,6 +277,7 @@
             <element signature="e#443#496#0" />
             <element signature="e#1685#2009#0" />
             <element signature="e#1910#2131#0" />
+            <element signature="e#2506#2810#0" />
             <element signature="e#2750#2887#0" />
             <element signature="e#3430#3651#0" />
             <element signature="e#3226#3566#0" />
@@ -287,6 +289,7 @@
             <element signature="e#7290#8733#0" />
             <element signature="e#7353#7932#0" />
             <element signature="e#9269#9838#0" />
+            <element signature="e#9806#10355#0" />
           </folding>
         </state>
       </provider>

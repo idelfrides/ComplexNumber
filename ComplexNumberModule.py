@@ -1,4 +1,5 @@
 
+# the class hold 20 methods used to build this project
 class ComplexNumberModule(object):
     parte_real2 = 0
     parte_imaginaria2 = 0
@@ -83,7 +84,7 @@ class ComplexNumberModule(object):
         preais = self.parte_real * self.parte_real2 - self.parte_imaginaria * self.parte_imaginaria2
         pimagi = self.parte_real * self.parte_imaginaria2 + self.parte_imaginaria*self.parte_real2
         self.show_result_sm(preais, pimagi, 3)
-    
+
     def subtract_method(self):
         preais = self.parte_real - self.parte_real2
         pimagi = self.parte_imaginaria - self.parte_imaginaria2

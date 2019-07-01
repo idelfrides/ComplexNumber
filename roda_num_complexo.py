@@ -1,6 +1,7 @@
 import ComplexNumberModule as ncm
 import time as t
 
+# main method: star and controle app flow execution
 def run_app_numComp():
 
     # create an ComplexNumberModule class object
