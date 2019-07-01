@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc3c29d6-7460-4dfd-a13c-a0da44d6eb1e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ComplexNumberModule.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1116">
+              <caret line="114" column="11" lean-forward="true" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+              <folding>
+                <element signature="e#136#140#0" />
+                <element signature="e#182#429#0" />
+                <element signature="e#470#1177#0" />
+                <element signature="e#212#289#0" />
+                <element signature="e#341#403#0" />
+                <element signature="e#443#496#0" />
+                <element signature="e#1685#2009#0" />
+                <element signature="e#1910#2131#0" />
+                <element signature="e#2172#2379#0" />
+                <element signature="e#1643#1834#0" />
+                <element signature="e#1568#2002#0" />
+                <element signature="e#2038#2326#0" />
+                <element signature="e#3282#4158#0" />
+                <element signature="e#3734#4844#0" />
+                <element signature="e#4909#6583#0" />
+                <element signature="e#6966#7205#0" />
+                <element signature="e#7290#8733#0" />
+                <element signature="e#7353#7932#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roda_num_complexo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BlocoDeNotas.py" />
+        <option value="$PROJECT_DIR$/bloco_de_notas.py" />
+        <option value="$PROJECT_DIR$/QUESTAO_2/bloco_de_notas.py" />
+        <option value="$PROJECT_DIR$/NumeroComplexo.py" />
+        <option value="$PROJECT_DIR$/ComplexNumberModule.py" />
+        <option value="$PROJECT_DIR$/roda_num_complexo.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="width" value="1710" />
+    <option name="height" value="975" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="COMPLEX_NUMBERS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COMPLEX_NUMBERS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.roda_num_complexo">
+    <configuration name="bloco_de_notas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KOSSI_SEDJRO_422707" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bloco_de_notas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="roda_num_complexo" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <module name="KOSSI_SEDJRO_422707" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roda_num_complexo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.roda_num_complexo" />
+      <item itemvalue="Python.bloco_de_notas" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bloco_de_notas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc3c29d6-7460-4dfd-a13c-a0da44d6eb1e" name="Default" comment="" />
+      <created>1561840543625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561840543625</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15201586" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3298969" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" x="612" y="15" width="912" height="737" id="Run" order="10" type="FLOATING" weight="0.71281296" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.19587629" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34167895" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.05007364" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../TEST_WEATHER_API/WeatherApiModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="42" column="49" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="42" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nota-2.txt" />
+    <entry file="file://$PROJECT_DIR$/nota3.txt" />
+    <entry file="file://$PROJECT_DIR$/nota4.txt" />
+    <entry file="file://$PROJECT_DIR$/nota5.txt" />
+    <entry file="file://$PROJECT_DIR$/nota6.txt" />
+    <entry file="file://$PROJECT_DIR$/BlocoDeNotas.py" />
+    <entry file="file://$PROJECT_DIR$/QUESTAO_2/bloco_de_notas.py" />
+    <entry file="file://$PROJECT_DIR$/bloco_de_notas.py" />
+    <entry file="file://$PROJECT_DIR$/../FILES_MANIPULING/BlocoDeNotas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="47" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="114" column="11" lean-forward="true" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <element signature="e#136#140#0" />
+            <element signature="e#182#429#0" />
+            <element signature="e#470#1177#0" />
+            <element signature="e#212#289#0" />
+            <element signature="e#341#403#0" />
+            <element signature="e#443#496#0" />
+            <element signature="e#1685#2009#0" />
+            <element signature="e#1910#2131#0" />
+            <element signature="e#2172#2379#0" />
+            <element signature="e#1643#1834#0" />
+            <element signature="e#1568#2002#0" />
+            <element signature="e#2038#2326#0" />
+            <element signature="e#3282#4158#0" />
+            <element signature="e#3734#4844#0" />
+            <element signature="e#4909#6583#0" />
+            <element signature="e#6966#7205#0" />
+            <element signature="e#7290#8733#0" />
+            <element signature="e#7353#7932#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
