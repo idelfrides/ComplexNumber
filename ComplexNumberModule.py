@@ -116,7 +116,7 @@ class ComplexNumberModule(object):
             print('\n WARNING: DIVISION IMPOSSIBLE. \n THE FIRST COMPLEX NUMBER IS ZERO\n')
 
     def menu_init(self):
-        op_init = -1
+        # op_init = -1
         print('\n\n MENU DE INICIALIZACAO \n\n '
               '[1] Apenas com parte real \n '
               '[2] Com parte real e parte imaginaria \n '
@@ -127,18 +127,20 @@ class ComplexNumberModule(object):
         while help_me is True:
             try:
                 op_init = int(input('\n Escolha um modo de Inicializacao:  '))
+                if type(op_init) is int and op_init >= 0 and op_init <= 3:  #ok
+                    help_me = False   # get out from the while loop
+                else:
+                    help_me = True
             except Exception as erro:
-                if op_init is not 1 and op_init is not 2 and op_init is not 3 and op_init is not 0:
+                # if type(op_init) is not int:   # char
                     print('\n\n ******************************************'
                           '\n WARNING:'
                           '\n modo de inicializacao invalido!!'
                           '\n Escolhe um modo listado acima')
                     print('\n TIPO DE ERRO: \n  {}'.format(erro))
                     print('*******************************************')
-                                        # continue in the while loop
-                else:
-                    help_me = False
-            help_me = False  # get out from the while loop
+                    help_me = True    # continue in the while loop
+
         return op_init
 
     def menu_listagem(self, codigo):

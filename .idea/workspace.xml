@@ -18,16 +18,14 @@
       <file leaf-file-name="ComplexNumberModule.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+            <state relative-caret-position="1306">
+              <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
               <folding>
                 <element signature="e#136#140#0" />
                 <element signature="e#182#429#0" />
-                <element signature="e#483#1471#0" />
                 <element signature="e#212#289#0" />
                 <element signature="e#341#403#0" />
                 <element signature="e#443#496#0" />
-                <element signature="e#1685#2009#0" />
                 <element signature="e#1910#2131#0" />
                 <element signature="e#2506#2810#0" />
                 <element signature="e#2750#2887#0" />
@@ -50,8 +48,8 @@
       <file leaf-file-name="roda_num_complexo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="51" />
+            <state relative-caret-position="1374">
+              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -206,7 +204,7 @@
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.19587629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.34167895" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.05007364" />
+      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.0544919" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -221,7 +219,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -256,8 +254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="51" />
+        <state relative-caret-position="1374">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -266,16 +264,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+        <state relative-caret-position="1306">
+          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
           <folding>
             <element signature="e#136#140#0" />
             <element signature="e#182#429#0" />
-            <element signature="e#483#1471#0" />
             <element signature="e#212#289#0" />
             <element signature="e#341#403#0" />
             <element signature="e#443#496#0" />
-            <element signature="e#1685#2009#0" />
             <element signature="e#1910#2131#0" />
             <element signature="e#2506#2810#0" />
             <element signature="e#2750#2887#0" />
