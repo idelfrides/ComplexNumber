@@ -4,7 +4,6 @@
     <list default="true" id="bc3c29d6-7460-4dfd-a13c-a0da44d6eb1e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComplexNumberModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexNumberModule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roda_num_complexo.py" beforeDir="false" afterPath="$PROJECT_DIR$/roda_num_complexo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,41 +14,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ComplexNumberModule.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ComplexNumberModule.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1306">
-              <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+            <state relative-caret-position="952">
+              <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
               <folding>
-                <element signature="e#136#140#0" />
-                <element signature="e#182#429#0" />
-                <element signature="e#212#289#0" />
-                <element signature="e#341#403#0" />
-                <element signature="e#443#496#0" />
-                <element signature="e#1910#2131#0" />
-                <element signature="e#2506#2810#0" />
-                <element signature="e#2750#2887#0" />
-                <element signature="e#3430#3651#0" />
-                <element signature="e#3226#3566#0" />
-                <element signature="e#3605#4342#0" />
-                <element signature="e#4380#5258#0" />
-                <element signature="e#3734#4844#0" />
-                <element signature="e#4909#6583#0" />
-                <element signature="e#7477#7801#0" />
-                <element signature="e#7290#8733#0" />
-                <element signature="e#7353#7932#0" />
-                <element signature="e#9269#9838#0" />
-                <element signature="e#9806#10355#0" />
+                <element signature="e#222#488#0" />
+                <element signature="e#529#1541#0" />
+                <element signature="e#1614#1691#0" />
+                <element signature="e#1743#1805#0" />
+                <element signature="e#1845#1898#0" />
+                <element signature="e#1940#2264#0" />
+                <element signature="e#2306#2527#0" />
+                <element signature="e#2561#2914#0" />
+                <element signature="e#2950#3104#0" />
+                <element signature="e#3147#3385#0" />
+                <element signature="e#3426#3766#0" />
+                <element signature="e#3805#4586#0" />
+                <element signature="e#4621#5772#0" />
+                <element signature="e#6978#7479#0" />
+                <element signature="e#7523#7847#0" />
+                <element signature="e#7890#9329#0" />
+                <element signature="e#9391#9963#0" />
+                <element signature="e#10031#10619#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roda_num_complexo.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="roda_num_complexo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1374">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="297">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -92,6 +90,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,11 +102,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FILES_MANIPULING" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -198,20 +196,20 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15201586" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="870" y="15" width="654" height="737" id="Run" order="10" type="FLOATING" weight="0.71281296" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.19587629" />
+      <window_info anchor="bottom" x="870" y="15" width="654" height="737" id="Run" order="10" type="FLOATING" weight="0.71281296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.34167895" />
-      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.0544919" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.0544919" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -223,6 +221,43 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#222#488#0" />
+            <element signature="e#529#1541#0" />
+            <element signature="e#1614#1691#0" />
+            <element signature="e#1743#1805#0" />
+            <element signature="e#1845#1898#0" />
+            <element signature="e#1940#2264#0" />
+            <element signature="e#2306#2527#0" />
+            <element signature="e#2561#2914#0" />
+            <element signature="e#2950#3104#0" />
+            <element signature="e#3147#3385#0" />
+            <element signature="e#3426#3766#0" />
+            <element signature="e#3805#4586#0" />
+            <element signature="e#4621#5772#0" />
+            <element signature="e#6978#7479#0" />
+            <element signature="e#7523#7847#0" />
+            <element signature="e#7890#9329#0" />
+            <element signature="e#9391#9963#0" />
+            <element signature="e#10031#10619#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../TEST_WEATHER_API/WeatherApiModule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -252,40 +287,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
+    <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1374">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="952">
+          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#222#488#0" />
+            <element signature="e#529#1541#0" />
+            <element signature="e#1614#1691#0" />
+            <element signature="e#1743#1805#0" />
+            <element signature="e#1845#1898#0" />
+            <element signature="e#1940#2264#0" />
+            <element signature="e#2306#2527#0" />
+            <element signature="e#2561#2914#0" />
+            <element signature="e#2950#3104#0" />
+            <element signature="e#3147#3385#0" />
+            <element signature="e#3426#3766#0" />
+            <element signature="e#3805#4586#0" />
+            <element signature="e#4621#5772#0" />
+            <element signature="e#6978#7479#0" />
+            <element signature="e#7523#7847#0" />
+            <element signature="e#7890#9329#0" />
+            <element signature="e#9391#9963#0" />
+            <element signature="e#10031#10619#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ComplexNumberModule.py">
+    <entry file="file://$PROJECT_DIR$/roda_num_complexo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1306">
-          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+        <state relative-caret-position="297">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
-            <element signature="e#136#140#0" />
-            <element signature="e#182#429#0" />
-            <element signature="e#212#289#0" />
-            <element signature="e#341#403#0" />
-            <element signature="e#443#496#0" />
-            <element signature="e#1910#2131#0" />
-            <element signature="e#2506#2810#0" />
-            <element signature="e#2750#2887#0" />
-            <element signature="e#3430#3651#0" />
-            <element signature="e#3226#3566#0" />
-            <element signature="e#3605#4342#0" />
-            <element signature="e#4380#5258#0" />
-            <element signature="e#3734#4844#0" />
-            <element signature="e#4909#6583#0" />
-            <element signature="e#7477#7801#0" />
-            <element signature="e#7290#8733#0" />
-            <element signature="e#7353#7932#0" />
-            <element signature="e#9269#9838#0" />
-            <element signature="e#9806#10355#0" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

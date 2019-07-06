@@ -22,7 +22,7 @@ class ComplexNumberModule(object):
               '3 -> MULTIPLICACAO \n '
               '4 -> DIVISAO \n '
               '5 -> IGUALDADE \n '
-              '0 -> VOLTAR')
+              '0 -> SAIR')
 
         help_me = True
         while help_me is True:
@@ -142,41 +142,6 @@ class ComplexNumberModule(object):
                     help_me = True    # continue in the while loop
 
         return op_init
-
-    def menu_listagem(self, codigo):
-        print('\n\n MENU DAS NOTAS \n')
-        indice = 1
-        tam = self.linsta_notas.__len__()
-
-        for ind in range(tam):  # 0 ate tam-1
-            print('\n [{}] {} '.format(indice, self.linsta_notas[ind]))
-            indice = indice + 1
-        print('\n [0] SAIR')
-
-        opcao = int(input('\n\n Escolha uma nota pra ler/alterar: '))
-
-        if codigo is 1:
-            if opcao >= 1 and opcao <= tam:
-                self.ler_nota(opcao - 1)
-                return
-            elif opcao is 0:
-                print('Sr(a) escolheu Sair.\n')
-                return opcao
-            else:
-                print('AVISO: OPCAO INVALIDA.\n Aplicao sera encerrada. \n\n')
-                exit(0)
-        elif codigo is 2:  # alterar
-            if opcao >= 1 and opcao <= tam:
-                self.alterar_nota(opcao - 1)
-                return
-            elif opcao is 0:
-                print('Sr(a) escolheu Sair.\n')
-                return opcao
-            else:
-                print('AVISO: OPCAO INVALIDA.\n Aplicao sera encerrada. \n\n')
-                exit(0)
-        else:
-            pass
 
     def set_values(self, order, mode):
         if order is 1: # receber pimeiro num complexo: parte real e parte imaginaria
